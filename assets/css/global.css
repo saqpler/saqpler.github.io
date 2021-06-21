@@ -1,0 +1,22 @@
+html, body 
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body, td, th, table
+{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+/* pour l'affichage des exemples JavaScrip */
+#affJS{
+    margin: 5px;
+    padding: 3px;
+    background-color: rgba(100, 100, 100, 0.2);
+    border: 1px #666 solid;
+}

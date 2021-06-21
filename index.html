@@ -1,8 +1,20 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-test
+    <head>
+        <title>Premier site</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link href="assets/css/global.css" type="text/css" rel="stylesheet" media="screen"/>
+
+        <script type="text/javascript">
+            // fonction appelée lorsque la structure
+            // de la pahe HTML est chargée dans le navigateur.
+            function init() {
+                var textFinal = "Un premier affichage";
+                document.getElementById("affJS").innerHTML = textFinal;
+            }
+        </script>
+    </head>
+<body onLoad="init()">
+    <div id="affJS"></div>
 </body>
 </html>
